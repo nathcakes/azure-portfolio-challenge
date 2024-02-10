@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/workingdesk.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "An image of a laptop sitting in front of 3 computer monitors, all of which are displaying code.";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm at Computer Science student at Curtin University and love teaching others the power of coding.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -34,9 +34,8 @@ const skillsList = [
   "Web design",
   "User experience",
   "Inclusive design",
-  "Focus group testing",
   "Mobile user interfaces",
-  "Graphic design",
+  "Mobile Applications"
 ];
 
 /**
@@ -45,8 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "I am passionate about teaching others, I believe we should all be using technology to it's fullest extent and learning how to code is one of the most powerful ways to achieve that. I also love developing mobile applications that are a joy to use."
 const About = () => {
   return (
     <section className="padding" id="about">
